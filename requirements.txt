@@ -1,0 +1,28 @@
+# torch 2.x CUDA 12.1 suggested; CPU works (guards added)
+torch>=2.4
+torchvision
+transformers>=4.53
+peft
+bitsandbytes
+accelerate
+datasets
+einops
+timm
+opencv-python
+pillow
+numpy
+pandas
+matplotlib
+networkx
+scikit-image
+kagglehub
+kaggle
+pandasql
+adabelief-pytorch
+typing-extensions
+ipython
+numba
+# heavy / Colab-only (install only if needed):
+# unsloth
+# flash-attn
+# pyforceatlas2
